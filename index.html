@@ -5,7 +5,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&family=Tenor+Sans&display=swap"
         rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.cdnfonts.com/css/futura-pt" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -48,7 +49,7 @@
             </div>
         </div>
         <div class="container">
-            
+
             <div class="zagolovki">
                 <div class="text_in_zagolovki">
                     <div class="div_for_zagolovok_1">
@@ -73,37 +74,41 @@
 
     <section class="section_2">
         <div class="container" id="container_2">
-            <div class="div_in_section_2" id="d1">
-                <h1 class="zagolovok_in_section_2">01</h1>
-                <p class="name_block">Изготовим за <span class="span_in_p">12-48 часов</span></p>
-                <h4 class="text_in_block">Lorem ipsum dolor sit amet consectetur.
-                    Orci eros amet suspendisse imperdiet mi.
-                    Proin a quisque nulla sit mattis pellentesque dui vestibulum tortor.
-                    Proin convallis sagittis consectetur egestas.</h4>
+            <div class="div_for_1024">
+                <div class="div_in_section_2" id="d1">
+                    <h1 class="zagolovok_in_section_2">01</h1>
+                    <p class="name_block">Изготовим за <span class="span_in_p">12-48 часов</span></p>
+                    <h4 class="text_in_block">Lorem ipsum dolor sit amet consectetur.
+                        Orci eros amet suspendisse imperdiet mi.
+                        Proin a quisque nulla sit mattis pellentesque dui vestibulum tortor.
+                        Proin convallis sagittis consectetur egestas.</h4>
+                </div>
+                <div class="div_in_section_2" id="d2">
+                    <h1 class="zagolovok_in_section_2">02</h1>
+                    <p class="name_block">Установим за <span class="span_in_p">2 часа</span></p>
+                    <h4 class="text_in_block">Lorem ipsum dolor sit amet consectetur.
+                        Orci eros amet suspendisse imperdiet mi.
+                        Proin a quisque nulla sit mattis pellentesque dui vestibulum tortor.
+                        Proin convallis sagittis consectetur egestas.</h4>
+                </div>
             </div>
-            <div class="div_in_section_2" id="d2">
-                <h1 class="zagolovok_in_section_2">02</h1>
-                <p class="name_block">Установим за <span class="span_in_p">2 часа</span></p>
-                <h4 class="text_in_block">Lorem ipsum dolor sit amet consectetur.
-                    Orci eros amet suspendisse imperdiet mi.
-                    Proin a quisque nulla sit mattis pellentesque dui vestibulum tortor.
-                    Proin convallis sagittis consectetur egestas.</h4>
-            </div>
-            <div class="div_in_section_2" id="d3">
-                <h1 class="zagolovok_in_section_2">03</h1>
-                <p class="name_block">Привезем за <span class="span_in_p">0 руб</span></p>
-                <h4 class="text_in_block">Lorem ipsum dolor sit amet consectetur.
-                    Orci eros amet suspendisse imperdiet mi.
-                    Proin a quisque nulla sit mattis pellentesque dui vestibulum tortor.
-                    Proin convallis sagittis consectetur egestas.</h4>
-            </div>
-            <div class="div_in_section_2" id="d4">
-                <h1 class="zagolovok_in_section_2">04</h1>
-                <p class="name_block">Демонтиуем за <span class="span_in_p">0 руб</span></p>
-                <h4 class="text_in_block">Lorem ipsum dolor sit amet consectetur.
-                    Orci eros amet suspendisse imperdiet mi.
-                    Proin a quisque nulla sit mattis pellentesque dui vestibulum tortor.
-                    Proin convallis sagittis consectetur egestas.</h4>
+            <div class="div_for_1024">
+                <div class="div_in_section_2" id="d3">
+                    <h1 class="zagolovok_in_section_2">03</h1>
+                    <p class="name_block">Привезем за <span class="span_in_p">0 руб</span></p>
+                    <h4 class="text_in_block">Lorem ipsum dolor sit amet consectetur.
+                        Orci eros amet suspendisse imperdiet mi.
+                        Proin a quisque nulla sit mattis pellentesque dui vestibulum tortor.
+                        Proin convallis sagittis consectetur egestas.</h4>
+                </div>
+                <div class="div_in_section_2" id="d4">
+                    <h1 class="zagolovok_in_section_2">04</h1>
+                    <p class="name_block">Демонтиуем за <span class="span_in_p">0 руб</span></p>
+                    <h4 class="text_in_block">Lorem ipsum dolor sit amet consectetur.
+                        Orci eros amet suspendisse imperdiet mi.
+                        Proin a quisque nulla sit mattis pellentesque dui vestibulum tortor.
+                        Proin convallis sagittis consectetur egestas.</h4>
+                </div>
             </div>
         </div>
     </section>
@@ -143,13 +148,13 @@
                 </div>
                 <div class="foto_in_section_3">
                     <div class="big_foto">
-                        <img src="image.png">
+                        <img src="image.png" class="big_foto_in_section_3">
                     </div>
                     <div class="small_foto">
-                        <img src="image.png">
-                        <img src="image.png">
-                        <img src="image.png">
-                        <img src="image.png">
+                        <img src="image.png" class="small_foto_in_section_3">
+                        <img src="image.png" class="small_foto_in_section_3">
+                        <img src="image.png" class="small_foto_in_section_3">
+                        <img src="image.png" class="small_foto_in_section_3">
                     </div>
                 </div>
             </div>
@@ -615,11 +620,11 @@
                                     </div>
                                 </div>
                                 <div class="div_for_square_in_section_9">
-                                    <div class="square"></div>
-                                    <div class="square"></div>
-                                    <div class="square"></div>
-                                    <div class="square"></div>
-                                    <div class="square5"></div>
+                                    <div class="square" id="square1"></div>
+                                    <div class="square" id="square2"></div>
+                                    <div class="square" id="square3"></div>
+                                    <div class="square" id="square4"></div>
+                                    <div class="square5" id="square5"></div>
                                 </div>
 
                                 <div class="row_for_btns_in_swiper_4-slide">
@@ -697,11 +702,11 @@
                                     </div>
                                 </div>
                                 <div class="div_for_square_in_section_9">
-                                    <div class="square"></div>
-                                    <div class="square"></div>
-                                    <div class="square"></div>
-                                    <div class="square"></div>
-                                    <div class="square5"></div>
+                                    <div class="square" id="square1"></div>
+                                    <div class="square" id="square2"></div>
+                                    <div class="square" id="square3"></div>
+                                    <div class="square" id="square4"></div>
+                                    <div class="square5" id="square5"></div>
                                 </div>
 
                                 <div class="row_for_btns_in_swiper_4-slide">
@@ -1066,7 +1071,6 @@
             // Optional parameters
             direction: 'horizontal',
             loop: true,
-            slidesPerView: 4,
 
             // If we need pagination
             pagination: {
@@ -1083,6 +1087,24 @@
             scrollbar: {
                 el: '.swiper-scrollbar_1',
             },
+
+            breakpoints: {
+                1: {
+                    slidesPerView: 1, // 1 слайд
+                },
+                480: {
+                    slidesPerView: 1, // 2 слайда
+                },
+                768: {
+                    slidesPerView: 2, // 3 слайда
+                },
+                1024: {
+                    slidesPerView: 3, // 4 слайда
+                },
+                1530:{
+                    slidesPerView: 4,
+                }
+            }
         });
 
 
@@ -1107,6 +1129,24 @@
             scrollbar: {
                 el: '.swiper-scrollbar-2',
             },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1, // 1 слайд
+                },
+                480: {
+                    slidesPerView: 1, // 2 слайда
+                },
+                768: {
+                    slidesPerView: 2, // 3 слайда
+                },
+                1024: {
+                    slidesPerView: 3, // 4 слайда
+                },
+                1530:{
+                    slidesPerView: 4,
+                }
+            }
+
         });
 
         const swiper_3 = new Swiper('.swiper_3', {
@@ -1130,6 +1170,24 @@
             scrollbar: {
                 el: '.swiper-scrollbar-3',
             },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1, // 1 слайд
+                },
+                480: {
+                    slidesPerView: 1, // 2 слайда
+                },
+                640: {
+                    slidesPerView: 1, // 3 слайда
+                },
+                1024: {
+                    slidesPerView: 1, // 4 слайда
+                },
+                1530:{
+                    slidesPerView: 1,
+                }
+            }
+
         });
 
         const swiper_4 = new Swiper('.swiper_4', {
@@ -1153,6 +1211,24 @@
             scrollbar: {
                 el: '.swiper-scrollbar-4',
             },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1, // 1 слайд
+                },
+                480: {
+                    slidesPerView: 1, // 2 слайда
+                },
+                768: {
+                    slidesPerView: 1, // 3 слайда
+                },
+                1024: {
+                    slidesPerView: 1, // 4 слайда
+                },
+                1530:{
+                    slidesPerView: 1,
+                }
+            }
+
         });
 
         const swiper_5 = new Swiper('.swiper_5', {
@@ -1176,6 +1252,24 @@
             scrollbar: {
                 el: '.swiper-scrollbar-5',
             },
+            breakpoints: {
+                320: {
+                    slidesPerView: 1, // 1 слайд
+                },
+                480: {
+                    slidesPerView: 1, // 2 слайда
+                },
+                768: {
+                    slidesPerView: 2, // 3 слайда
+                },
+                1024: {
+                    slidesPerView: 2, // 4 слайда
+                },
+                1530:{
+                    slidesPerView: 3,
+                }
+            }
+
         });
 
     </script>
